@@ -10,11 +10,11 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
 import Work1 from "./assets/project-1.jpeg";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpeg";
-import Work4 from "./assets/project-4.jpeg";
+import Work2 from "./assets/ecom.png";
+import Work3 from "./assets/ev.png";
+import Work4 from "./assets/pf.png";
 import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import Work6 from "./assets/quiz.png";
 import NoImg from "./assets/noImg.jpg";
 
 import Theme1 from "./assets/purple.png";
@@ -283,7 +283,7 @@ export const portfolio = [
 
   {
     id: 2,
-    img: NoImg,
+    img: Work2,
     title: "E-Commerce Site",
     details: [
       {
@@ -304,14 +304,14 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "N/A",
+        desc: "https://preetiranjan-sahoo.github.io/ecommerce-site/",
       },
     ],
   },
 
   {
     id: 3,
-    img: NoImg,
+    img: Work3,
     title: "Landing Page",
     details: [
       {
@@ -332,14 +332,14 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "N/A",
+        desc: "https://preetiranjan-sahoo.github.io/EV-Landing-Page/",
       },
     ],
   },
 
   {
     id: 4,
-    img: NoImg,
+    img: Work4,
     title: "Theme Customize Site",
     details: [
       {
@@ -360,7 +360,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "N/A",
+        desc: "This site",
       },
     ],
   },
@@ -391,7 +391,7 @@ export const portfolio = [
 
   {
     id: 6,
-    img: NoImg,
+    img: Work6,
     title: "Quiz App",
     details: [
       {
@@ -412,7 +412,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "N/A",
+        desc: "https://preetiranjan-sahoo.github.io/Quiz-App/",
       },
     ],
   },
